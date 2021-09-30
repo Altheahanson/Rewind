@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #5c2aad;
-    --secondary-color: #e7d912;
+    --primary-color: #ee1c27;
+    --secondary-color: #e78b12;
     --dark-color: #292929;
     --white-color: #eaf7ed;
 }
@@ -49,7 +49,7 @@ footer .social>a:hover{
 }
 
 .checklist > li i{
-    color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 code[class*="language-"],
