@@ -91,9 +91,25 @@
                 </pre>
             </div>
             <div class="col-lg-4">
-                <p> The code is structured in one function</p>
-                <h5> Hello World</h5>
-                <p> Hello world is a function that displays a message of "Hello World</p>
+                <p> The code is structured in three functions</p>
+                <h5> getValue</h5>
+                <p> getValues accepts(gets) the user input from the page. It utilizes 
+                    <strong>getElementById</strong> to pull the values from the page. The "Id" being used was declared on the app page.
+                    We then take the userString and pass it to <strong>reverseString</strong>. whcih would then display on the screen
+                    using <strong>displayString</strong>.
+                    
+                <h5>reverseString</h5>
+                <p>  reverseString passes the userString into an empty array then using a decrementing <strong>for</strong> loop, 
+                    it takes the userString, starting at the end of the string, taking into account the maximum length minus 1,
+                    and at each loop adds 1 until the index is greater than or equal to 0. So the revString would be the userString
+                    after being calculated by the index.
+                    
+                    <br><br>
+                    
+                </p>
+                <h5> displayString</h5>
+                <p>displayString uses revString to get the innerHTML for the "msg" Id and prints the revString message to the screen using template literal, then 
+                    make it visible to the user by removing it from being invivible. </p>
             </div>
         </div>
     </div>
